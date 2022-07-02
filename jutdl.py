@@ -36,7 +36,7 @@ def download(header, quality):
     j = s.split(";")
 
     while True:
-        if len(j) == 0 or 1:
+        if len(j) == 0 or len(j) == 1:
             print("\nСкачивание успешно завершенно... Приятного просмотра!")
         else:
             url = j[1]
